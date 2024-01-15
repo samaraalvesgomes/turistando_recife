@@ -1,0 +1,177 @@
+* {
+    font-family: Arial; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.margem {
+    margin: 10px;
+}
+
+
+
+
+
+
+
+header {
+    margin-bottom: 30px;
+    background-color: rgb(191, 220, 191); 
+}
+
+h1 {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 45px;
+    text-align: center;
+    align-items: end;
+    margin-bottom: 30px;
+    background-color: rgb(191, 220, 191); 
+}
+
+.subtitulo {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 30px;
+    text-align:center;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    background-color: rgb(191, 220, 191);  
+}
+
+.lema {
+    font-family: sans-serif;
+    color: rgb(59, 137, 59);
+    font-size: 20px;
+    text-align:center;
+    align-items:center;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+
+
+
+
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align:center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+.blocos_1 {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    
+}
+
+.text_oficina h2 {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.text_oficina p {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.endereco_1 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.endereco_1 li {
+   margin-bottom: 10px; 
+}
+
+.foto_1 {
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.blocos_2 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.text_instituto h2 {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 30px;
+    text-align:center;
+    margin-top: 20px;
+}
+
+.text_instituto p {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.endereco_2 {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.endereco_2 li {
+    margin-bottom: 10px;
+}
+
+.foto_2 {
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(191, 220, 191);
+}
+
+footer h5 {
+    display: flex;
+    font-size: 15px;
+    color: darkgreen;
+    align-items:center;
+    text-align: start;
+    margin-top: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.item {
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    text-align: center;
+    margin-bottom: 10px;
+}

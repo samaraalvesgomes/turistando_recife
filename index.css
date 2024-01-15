@@ -1,0 +1,156 @@
+
+* {
+    font-family: Arial; 
+    margin: 0px;
+    padding: 0px;
+}
+
+.margem {
+    margin: 10px;
+}
+
+
+
+
+header {
+    margin-bottom: 30px;
+    background-color: rgb(191, 220, 191); 
+}
+
+h1 {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 45px;
+    text-align: center;
+    align-items: end;
+    margin-bottom: 30px;
+    background-color: rgb(191, 220, 191); 
+}
+
+.subtitulo {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 30px;
+    text-align:center;
+    align-items: flex-end;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    background-color: rgb(191, 220, 191);  
+}
+
+.lema {
+    font-family: sans-serif;
+    color: rgb(59, 137, 59);
+    font-size: 20px;
+    text-align:center;
+    align-items:center;
+    margin-top: 10px;
+    background-color: rgb(255, 255, 255); 
+}
+
+
+
+
+
+main {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align:center;
+    align-items: center;
+
+}
+
+
+
+
+
+
+article{
+    display: flex;
+    justify-content: space-between; 
+}
+
+div{
+    display: block;
+    justify-content: space-around; 
+}
+
+.title-text {
+    font-family: sans-serif;
+    color: darkgreen;
+    font-size: 30px;
+    text-align:center;
+}
+
+article div div {
+    margin-top: 40px;
+    margin-bottom: 50px;    
+}
+
+article div div p {
+    margin-top: 5px;
+    margin-bottom: 5px;  
+}
+
+.atracoes {
+    margin-top: 30px;
+    margin-bottom: 30px; 
+}
+
+.atracoes-opcoes {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+
+.outros-pontos {
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+
+p#final {
+    margin-top: 15px;
+    margin-bottom: 10px; 
+}
+
+.fotos {
+    text-align:center;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: rgb(191, 220, 191);
+}
+
+footer h5 {
+    display: flex;
+    font-size: 15px;
+    color: darkgreen;
+    align-items:center;
+    text-align: start;
+    margin-top: 10px;
+}
+
+.redes-sociais {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+}
+
+.item {
+    display: flex;
+    flex-grow: 1;
+    align-items:center;
+    text-align: center;
+    margin-bottom: 10px;
+}
